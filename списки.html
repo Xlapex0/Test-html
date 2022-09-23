@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .spisok.gorizontal {
+            margin: 0;
+            border: 20px solid black;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .spisok.vertical {
+            margin-top: 100px;
+        }
+
+        .spisok.gorizontal>li.menu-item {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .spisok.vertical>li.menu-item {
+            list-style-type: none;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .spisok.gorizontal>li.menu-item>a {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-radius: 10px;
+            border: 4px solid rgb(0, 130, 252);
+            padding: 5px;
+            text-decoration: none;
+            transition: 1s;
+        }
+
+        .spisok.vertical>li.menu-item>a {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-radius: 10px;
+            border: 4px groove black;
+            padding: 5px;
+            text-decoration: none;
+            transition: 1s;
+        }
+        .spisok.gorizontal>li.menu-item>a:hover{
+            background-color: rgb(0, 130, 252);
+            color: rgb(138, 248, 206);
+            border-radius: 20px;
+            border: 3px groove rgb(255, 0, 0);
+        }
+        .spisok.vertical>li.menu-item>a:hover{
+            background-color: rgb(197, 252, 0);
+            color: rgb(255, 0, 0);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="spisok gorizontal">
+        <li class="menu-item"><a href="#">Главная страница </a></li>
+        <li class="menu-item"><a href="#">Рассписание</a></li>
+        <li class="menu-item"><a href="#">Новости сайта</a></li>
+        <li class="menu-item"><a href="#">Контакты</a></li>
+        <li class="menu-item"><a href="#">Регистрация/вход</a></li>
+    </ul>
+    <ul class="spisok vertical">
+        <li class="menu-item"><a href="#">гайд по html</a></li>
+        <li class="menu-item"><a href="#">гайд по CSS</a></li>
+        <li class="menu-item"><a href="#">гайд по C#</a></li>
+        <li class="menu-item"><a href="#">гайд по C++</a></li>
+        <li class="menu-item"><a href="#">гайд по JavaSkript</a></li>
+    </ul>
+    <ul>
+        <li>
+            уровень 1
+            <ul>
+                уровень 2
+                <ul>
+                    уровень 3
+                </ul>
+            </ul>
+        </li>
+        <li>уровень 1</li>
+    </ul>
+</body>
+
+</html>
