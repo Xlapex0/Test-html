@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+div{
+    margin: 0;
+}
+footer{
+    width: 1080px;
+}
+.hedder {
+    border: 1px solid black;
+    width: 1080px ;
+}
+
+.conteiner-dla-razd {
+    border: 0 solid black;
+    display: flex;
+    background-color: blue;
+    width: 1082px;
+}
+
+.niz {
+    border: 1px solid black;
+    width: 1080px;
+    display: flex;
+}
+
+.razd1 {
+    border: 1px solid black;
+    flex-direction: row;
+    background-color: rgb(0, 255, 55);
+    width: 541px;
+    margin: 0;
+}
+
+.razd2 {
+    border: 1px solid black;
+    flex-direction: row;
+    background-color: rgb(255, 0, 0);
+    width: 541px;
+    margin: 0;
+}
+
+.ico{
+    border: 1px solid black;
+}
+.spisok.gorizontal {
+    margin: 0;
+    background-color: rgb(0, 255, 55);
+}
+
+.spisok.vertical {
+    margin-top: 100px;
+}
+
+.spisok.gorizontal>li.menu-item {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px 5px;
+}
+
+.spisok.vertical>li.menu-item {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.spisok.gorizontal>li.menu-item>a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 130, 252);
+    padding: 5px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.spisok.vertical>li.menu-item>a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    border: 4px groove black;
+    padding: 5px;
+    text-decoration: none;
+    transition: 1s;
+}
+.spisok.gorizontal>li.menu-item>a:hover{
+    background-color: rgb(0, 130, 252);
+    color: rgb(138, 248, 206);
+    border-radius: 20px;
+    border: 3px groove rgb(255, 0, 0);
+}
+.spisok.vertical>li.menu-item>a:hover{
+    background-color: rgb(197, 252, 0);
+    color: rgb(255, 0, 0);
+    border-radius: 20px;
+}
